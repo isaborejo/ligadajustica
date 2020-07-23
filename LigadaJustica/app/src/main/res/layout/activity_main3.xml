@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7FFF0000"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="338dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/coustard_black"
+        android:text="@string/txt16"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/coustard_black"
+        android:text="@string/txt17"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="153dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/coustard_black"
+        android:text="@string/txt27"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt25" />
+
+    <TextView
+        android:id="@+id/txt22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/coustard_black"
+        android:text="@string/txt22"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/txt21"
+        app:layout_constraintTop_toBottomOf="@+id/txt20" />
+
+    <TextView
+        android:id="@+id/txt18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/coustard_black"
+        android:text="@string/txt18"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/txt17"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/txt19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/coustard_black"
+        android:text="@string/txt19"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt17" />
+
+    <TextView
+        android:id="@+id/txt28"
+        android:layout_width="177dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/coustard_black"
+        android:text="@string/txt28"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/txt26" />
+
+    <TextView
+        android:id="@+id/txt30"
+        android:layout_width="218dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/coustard_black"
+        android:text="@string/txt30"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/txt29"
+        app:layout_constraintTop_toBottomOf="@+id/txt28" />
+
+    <TextView
+        android:id="@+id/txt24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/coustard_black"
+        android:text="@string/txt24"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/txt23"
+        app:layout_constraintTop_toBottomOf="@+id/txt22" />
+
+    <TextView
+        android:id="@+id/txt23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/coustard_black"
+        android:text="@string/txt23"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt21" />
+
+    <TextView
+        android:id="@+id/txt20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/coustard_black"
+        android:text="@string/txt20"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/txt19"
+        app:layout_constraintTop_toBottomOf="@+id/txt18" />
+
+    <TextView
+        android:id="@+id/txt26"
+        android:layout_width="192dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/coustard_black"
+        android:text="@string/txt26"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/txt25"
+        app:layout_constraintTop_toBottomOf="@+id/txt24" />
+
+    <TextView
+        android:id="@+id/txt29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/coustard_black"
+        android:text="@string/txt29"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/txt21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/coustard_black"
+        android:text="@string/txt6"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt19" />
+
+    <TextView
+        android:id="@+id/txt25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/coustard_black"
+        android:text="@string/txt25"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt23" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="223dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mulher" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
